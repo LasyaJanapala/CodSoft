@@ -1,0 +1,140 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #e80052;
+    color: #fff;
+    padding: 20px 0;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 28px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+section {
+    padding: 50px 0;
+}
+
+#hero {
+    background-color: #e80052;
+}
+
+#hero h2 {
+    color: #fff;
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+#hero p {
+    color: #fff;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+#hero button {
+    background-color: #fff;
+    color: #e80052;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#about {
+    background-color: #f8e71c;
+    position: relative;
+}
+
+#about h2 {
+    color: #000;
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+#about p {
+    color: #000;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+#about button {
+    background-color: #e80052;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#about .image-container {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 50%;
+}
+
+#about img {
+    width: 100%;
+    height: auto;
+}
+
+#services {
+    background-color: #00aeef;
+}
+
+#services h2 {
+    color: #fff;
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.service {
+    margin-bottom: 20px;
+}
+
+.service h3 {
+    color: #fff;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.service p {
+    color: #fff;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer p {
+    margin: 0;
+}
